@@ -1,0 +1,4 @@
+dk/dtu/model/Person.class
+dk/dtu/exception/PersonServiceException.class
+dk/dtu/service/HelloService.class
+dk/dtu/service/PersonService.class
