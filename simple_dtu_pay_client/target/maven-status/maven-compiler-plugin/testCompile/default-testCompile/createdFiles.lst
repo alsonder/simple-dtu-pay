@@ -1,2 +1,2 @@
-dk/dtu/steps/PersonServiceSteps.class
-dk/dtu/steps/HelloServiceSteps.class
+dk/dtu/pay/steps/SimpleDTUPaySteps.class
+dk/dtu/pay/steps/RunCucumberTest.class

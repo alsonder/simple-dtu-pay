@@ -1,4 +1,5 @@
-dk/dtu/model/Person.class
-dk/dtu/exception/PersonServiceException.class
-dk/dtu/service/HelloService.class
-dk/dtu/service/PersonService.class
+dk/dtu/pay/service/model/Payment.class
+dk/dtu/pay/service/model/Merchant.class
+dk/dtu/pay/client/SimpleDtuPay.class
+dk/dtu/pay/service/model/Customer.class
+dk/dtu/pay/service/model/PaymentRequest.class

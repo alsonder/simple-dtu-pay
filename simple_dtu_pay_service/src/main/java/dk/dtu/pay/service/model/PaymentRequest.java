@@ -1,3 +1,9 @@
 package dk.dtu.pay.service.model;
 
-public record PaymentRequest(int amount, String customerId, String merchantId) {}
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public record PaymentRequest(
+        @JsonProperty("amount") int amount,
+        @JsonProperty("customerId") String customerId,
+        @JsonProperty("merchantId") String merchantId
+) {}

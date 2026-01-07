@@ -37,25 +37,21 @@
     </dependencyManagement>
 
     <dependencies>
-        <!-- Quarkus REST (tidligere RESTEasy Reactive) – core + JSON-B support -->
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-rest</artifactId>
+            <artifactId>quarkus-rest-jackson</artifactId>
         </dependency>
 
-        <!-- JAXB support til XML (til senere opgaver med SOAP/XML) -->
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-rest-jaxb</artifactId>
         </dependency>
 
-        <!-- Dependency Injection (trækkes normalt ind automatisk) -->
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-arc</artifactId>
         </dependency>
 
-        <!-- Test dependencies -->
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-junit5</artifactId>
@@ -70,7 +66,6 @@
 
     <build>
         <plugins>
-            <!-- Quarkus Maven Plugin -->
             <plugin>
                 <groupId>${quarkus.platform.group-id}</groupId>
                 <artifactId>quarkus-maven-plugin</artifactId>
@@ -87,7 +82,6 @@
                 </executions>
             </plugin>
 
-            <!-- Compiler Plugin -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${compiler-plugin.version}</version>
@@ -97,7 +91,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Surefire Plugin (unit tests) -->
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefire-plugin.version}</version>
@@ -110,7 +103,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Failsafe Plugin (integration tests) -->
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>${surefire-plugin.version}</version>

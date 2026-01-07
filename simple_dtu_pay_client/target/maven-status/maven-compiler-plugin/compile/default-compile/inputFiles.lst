@@ -1,4 +1,5 @@
-/home/al/Documents/WebDev/code-with-quarkus-client/src/main/java/dk/dtu/exception/PersonServiceException.java
-/home/al/Documents/WebDev/code-with-quarkus-client/src/main/java/dk/dtu/model/Person.java
-/home/al/Documents/WebDev/code-with-quarkus-client/src/main/java/dk/dtu/service/HelloService.java
-/home/al/Documents/WebDev/code-with-quarkus-client/src/main/java/dk/dtu/service/PersonService.java
+/home/al/Documents/WebDev/simple-dtu-pay/simple_dtu_pay_client/src/main/java/dk/dtu/pay/client/SimpleDtuPay.java
+/home/al/Documents/WebDev/simple-dtu-pay/simple_dtu_pay_client/src/main/java/dk/dtu/pay/service/model/Customer.java
+/home/al/Documents/WebDev/simple-dtu-pay/simple_dtu_pay_client/src/main/java/dk/dtu/pay/service/model/Merchant.java
+/home/al/Documents/WebDev/simple-dtu-pay/simple_dtu_pay_client/src/main/java/dk/dtu/pay/service/model/Payment.java
+/home/al/Documents/WebDev/simple-dtu-pay/simple_dtu_pay_client/src/main/java/dk/dtu/pay/service/model/PaymentRequest.java
