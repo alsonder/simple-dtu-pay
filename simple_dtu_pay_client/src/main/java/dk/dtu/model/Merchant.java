@@ -1,18 +1,18 @@
-package dk.dtu.pay.service.model;
+package dk.dtu.model;
 
 import io.quarkus.runtime.annotations.RegisterForReflection;
 
 @RegisterForReflection
-public class Customer {
+public class Merchant {
     public String id;
     public String name;
     public String cprNumber;
     public String bankAccountId;
 
-    public Customer() {
+    public Merchant() {
     }
 
-    public Customer(String name, String cprNumber, String bankAccountId) {
+    public Merchant(String name, String cprNumber, String bankAccountId) {
         this.name = name;
         this.cprNumber = cprNumber;
         this.bankAccountId = bankAccountId;

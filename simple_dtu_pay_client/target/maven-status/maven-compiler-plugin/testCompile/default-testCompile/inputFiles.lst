@@ -1,2 +1,2 @@
-/home/al/Documents/WebDev/code-with-quarkus-client/src/test/java/dk/dtu/steps/HelloServiceSteps.java
-/home/al/Documents/WebDev/code-with-quarkus-client/src/test/java/dk/dtu/steps/PersonServiceSteps.java
+/Users/nichitarailean/DoNow/january/web-service/simple-dtu-pay/simple_dtu_pay_client/src/test/java/dk/dtu/CucumberTest.java
+/Users/nichitarailean/DoNow/january/web-service/simple-dtu-pay/simple_dtu_pay_client/src/test/java/dk/dtu/steps/PaymentSteps.java

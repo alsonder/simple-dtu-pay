@@ -1,9 +1,20 @@
 package dk.dtu.pay.service.model;
 
-import java.util.UUID;
+import io.quarkus.runtime.annotations.RegisterForReflection;
 
-public record Merchant(String id, String name) {
-    public Merchant(String name) {
-        this(UUID.randomUUID().toString(), name);
+@RegisterForReflection
+public class Merchant {
+    public String id;
+    public String name;
+    public String cprNumber;
+    public String bankAccountId;
+
+    public Merchant() {
+    }
+
+    public Merchant(String name, String cprNumber, String bankAccountId) {
+        this.name = name;
+        this.cprNumber = cprNumber;
+        this.bankAccountId = bankAccountId;
     }
 }

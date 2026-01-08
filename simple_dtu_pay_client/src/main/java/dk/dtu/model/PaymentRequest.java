@@ -1,4 +1,4 @@
-package dk.dtu.pay.service.model;
+package dk.dtu.model;
 
 import io.quarkus.runtime.annotations.RegisterForReflection;
 
@@ -9,5 +9,11 @@ public class PaymentRequest {
     public String merchantId;
 
     public PaymentRequest() {
+    }
+
+    public PaymentRequest(int amount, String customerId, String merchantId) {
+        this.amount = amount;
+        this.customerId = customerId;
+        this.merchantId = merchantId;
     }
 }
