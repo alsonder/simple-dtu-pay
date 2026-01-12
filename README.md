@@ -6,6 +6,8 @@ cd simple_dtu_pay_service
 
 To run tests on client
 
+cd simple_dtu_pay_client
+
 export BANK_API_KEY="eagle0192"
 mvn test
 
